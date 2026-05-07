@@ -45,9 +45,9 @@ Vadim runs the full harvest + WB pull in the background; when those finish, repl
 | Lead | Notebook(s) owned | Reads | Writes (sole owner) |
 |---|---|---|---|
 | Tahvia | `topic_model.ipynb`, `02_alignment_descriptive.ipynb` | `tier2_tfidf.parquet`, `un_panel.parquet`, `wb_panel_stub.parquet` | `topic_assignments.parquet`, `output/figures/topic_heatmap.png`, `output/figures/archetype_umap.png` |
-| Ada | `models.ipynb`, `03_supervised.ipynb` | `tier{1,2,3}.parquet`, `un_panel.parquet`, `wb_panel_stub.parquet`, `wdi_controls.parquet` | `output/model_results.csv`, `output/figures/ablation_bars.png` |
+| Enrico | `models.ipynb`, `03_supervised.ipynb` | `tier{1,2,3}.parquet`, `un_panel.parquet`, `wb_panel_stub.parquet`, `wdi_controls.parquet` | `output/model_results.csv`, `output/figures/ablation_bars.png` |
 | Vadim | `01_corpus_eda.ipynb`, full harvest, WB pull, WDI carving | live APIs, `WDICSV.csv` | `transcripts.parquet` (full), `wb_panel.parquet`, `wdi_controls.parquet`, `output/figures/corpus_growth.png` |
-| Enrico | `label_transcripts.ipynb`, `paper/outline.md` | `transcripts.parquet` | `transcripts_human_labels.csv`, `paper/outline.md`, `paper/draft.md` |
+| Ada | `label_transcripts.ipynb`, `paper/outline.md` | `transcripts.parquet` | `transcripts_human_labels.csv`, `paper/outline.md`, `paper/draft.md` |
 
 **Rule:** if you need to change a column name in a parquet listed below, ping the group chat first.
 
